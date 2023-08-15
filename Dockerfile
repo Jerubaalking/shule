@@ -10,5 +10,5 @@ COPY ["composer.json", "composer-lock.json*","./"]
 COPY . /var/www/html/
 WORKDIR /var/www/html
 RUN composer install --no-dev
-CMD [ "php", "-S", "[::]:3080", "-t", "/" ]
+CMD [ "php", "-S", "[::]:3080", "-t", "/var/www/html" ]
 EXPOSE 3080
