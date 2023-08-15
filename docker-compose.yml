@@ -6,6 +6,6 @@ services:
       context: .
       dockerfile: ./Dockerfile
     environment:
-      ENV: production
+      CI_ENV: development
     ports:
       - 3080:3080
