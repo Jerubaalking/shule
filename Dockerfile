@@ -2,9 +2,9 @@ FROM php:8.0-apache
 # RUN echo 'SetEnv MYSQL_USER ${MYSQL_USER}' > /etc/apache2/conf-enabled/environment.conf
 # RUN echo 'SetEnv MYSQL_DSN ${MYSQL_DSN}' >> /etc/apache2/conf-enabled/environment.conf
 # RUN echo 'SetEnv MYSQL_PASSWORD ${MYSQL_PASSWORD}' >> /etc/apache2/conf-enabled/environment.conf
-RUN docker-php-ext-install pdo_mysql
+RUN docker-php-ext-install mysqli
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-RUN apt-get update && apt-get install -y git curl && apt-get install php7.0-mysql
+RUN apt-get update && apt-get install -y git curl
 RUN mkdir -p /var/www/html
 COPY ["composer.json", "composer-lock.json*","./"]
 COPY . /var/www/html/
