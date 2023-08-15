@@ -9,5 +9,5 @@ RUN mkdir -p /var/www/html
 COPY . /var/www/html/
 WORKDIR /var/www/html
 RUN composer install --no-dev
-CMD [ "php", "-S", "[::]:3080", "-t", "/var/www/html" ]
+CMD [ "php", "-S", "[::]:3080", "-t", "/" ]
 EXPOSE 3080
