@@ -4,6 +4,7 @@ $user_id   = $this->session->userdata('user_id');
 $logged_in_user_details = $this->user_model->get_user_details($user_id);
 $user_name = $logged_in_user_details['name'];
 $school_id = school_id();
+$cdn_url = "https://saincrafttechnologies-static-public-2023.fra1.digitaloceanspaces.com/shule";
 ?>
 <!DOCTYPE html>
 <html>
