@@ -1,32 +1,32 @@
   <!-- JS Global Compulsory -->
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/bootstrap/bootstrap.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/svg-injector/dist/svg-injector.min.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/fancybox/jquery.fancybox.min.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/slick-carousel/slick/slick.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/svg-injector/dist/svg-injector.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
 
   <!-- JS Front -->
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/hs.core.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.header.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.unfold.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.fancybox.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.slick-carousel.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.validation.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.focus-state.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/hs.core.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.header.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.unfold.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.fancybox.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.slick-carousel.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.validation.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.focus-state.js"></script>
 
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.g-map.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.cubeportfolio.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.svg-injector.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/components/hs.go-to.js"></script>
-  <script src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/js/custom.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.g-map.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.cubeportfolio.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.svg-injector.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/components/hs.go-to.js"></script>
+  <script src="<?php echo $cdn_url;?>/assets/frontend/<?php echo $theme;?>/js/custom.js"></script>
 
 
   <!-- JS Plugins Init. -->

@@ -2,6 +2,7 @@
   $school_title = get_settings('system_title');
   $theme        = get_frontend_settings('theme');
   $active_school_id = $this->frontend_model->get_active_school_id();
+  $cdn_url = "https://saincrafttechnologies-static-public-2023.fra1.digitaloceanspaces.com/shule";
 ?>
 <!DOCTYPE html>
 <html lang="en">
