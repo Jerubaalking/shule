@@ -6,6 +6,7 @@ RUN docker-php-ext-install pdo_mysql
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 RUN apt-get update && apt-get install -y git curl
 RUN mkdir -p /var/www/html
+COPY ["composer.json", "composer-lock.json*","./"]
 COPY . /var/www/html/
 WORKDIR /var/www/html
 RUN composer install --no-dev
