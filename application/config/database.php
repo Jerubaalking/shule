@@ -75,14 +75,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '0.0.0.0',
-	'username' => 'phpmyadmin',
-	'password' => 'thina',
+	'hostname' => '134.209.233.16',
+	'username' => 'root',
+	'password' => 'thina@2023',
 	'database' => 'school_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'development'),
+	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
 	'char_set' => 'utf8',
