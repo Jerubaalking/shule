@@ -1,10 +1,13 @@
-# Dockerfile
-FROM php:7.1.1-alpine
-# COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
-RUN apk update && apk add --no-cache git curl
-RUN mkdir -p /usr/local/bin/ && php installer.php --install-dir=/usr/local/bin --filename=composer
+FROM php:8.0-apache
+# RUN echo 'SetEnv MYSQL_USER ${MYSQL_USER}' > /etc/apache2/conf-enabled/environment.conf
+# RUN echo 'SetEnv MYSQL_DSN ${MYSQL_DSN}' >> /etc/apache2/conf-enabled/environment.conf
+# RUN echo 'SetEnv MYSQL_PASSWORD ${MYSQL_PASSWORD}' >> /etc/apache2/conf-enabled/environment.conf
+RUN docker-php-ext-install pdo_mysql
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+RUN apt-get update && apt-get install -y git curl
 RUN mkdir -p /var/www/html
-COPY ./src/ /var/www/html/
-RUN composer install -d /var/www/html/
-CMD [ "php", "-S", "[::]:3080", "-t", "/var/www/html" ]
-EXPOSE 3080
+COPY . /var/www/html/
+WORKDIR /var/www/html
+RUN composer install --no-dev
+CMD [ "php", "-S", "[::]:80", "-t", "/var/www/html" ]
+EXPOSE 80
