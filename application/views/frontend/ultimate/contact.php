@@ -29,7 +29,7 @@
         <!-- Contacts Info -->
         <div class="text-center py-5">
           <figure id="icon8" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
-            <img class="js-svg-injector" src="<?php echo base_url();?>assets/frontend/ultimate/svg/icons/icon-8.svg" alt="SVG"
+            <img class="js-svg-injector" src="<?php echo $cdn_url;?>assets/frontend/ultimate/svg/icons/icon-8.svg" alt="SVG"
                  data-parent="#icon8">
           </figure>
           <h2 class="h6 mb-0"><?php echo get_phrase('address'); ?></h2>
@@ -44,7 +44,7 @@
         <!-- Contacts Info -->
         <div class="text-center py-5">
           <figure id="icon15" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
-            <img class="js-svg-injector" src="<?php echo base_url();?>assets/frontend/ultimate/svg/icons/icon-15.svg" alt="SVG"
+            <img class="js-svg-injector" src="<?php echo $cdn_url;?>assets/frontend/ultimate/svg/icons/icon-15.svg" alt="SVG"
                  data-parent="#icon15">
           </figure>
           <h3 class="h6 mb-0"><?php echo get_phrase('email'); ?></h3>
@@ -59,7 +59,7 @@
         <!-- Contacts Info -->
         <div class="text-center py-5">
           <figure id="icon16" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
-            <img class="js-svg-injector" src="<?php echo base_url();?>assets/frontend/ultimate/svg/icons/icon-16.svg" alt="SVG"
+            <img class="js-svg-injector" src="<?php echo $cdn_url;?>assets/frontend/ultimate/svg/icons/icon-16.svg" alt="SVG"
                  data-parent="#icon16">
           </figure>
           <h3 class="h6 mb-0"><?php echo get_phrase('phone'); ?></h3>
@@ -74,7 +74,7 @@
         <!-- Contacts Info -->
         <div class="text-center py-5">
           <figure id="icon17" class="svg-preloader ie-height-56 max-width-8 mx-auto mb-3">
-            <img class="js-svg-injector" src="<?php echo base_url();?>assets/frontend/ultimate/svg/icons/icon-17.svg" alt="SVG"
+            <img class="js-svg-injector" src="<?php echo $cdn_url;?>assets/frontend/ultimate/svg/icons/icon-17.svg" alt="SVG"
                  data-parent="#icon17">
           </figure>
           <h3 class="h6 mb-0"><?php echo get_phrase('fax'); ?></h3>

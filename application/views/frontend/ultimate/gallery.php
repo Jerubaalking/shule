@@ -45,7 +45,7 @@
         <!-- Gallery thumb starts -->
         <div class="col-md-4 mb-3">
           <a class="d-flex align-items-end bg-img-hero gradient-overlay-half-dark-v1 transition-3d-hover height-450 rounded-pseudo" href="<?php echo site_url('home/gallery_view/'.$row['frontend_gallery_id']);?>"
-          style="background-image: url(<?php echo base_url(); ?>uploads/images/gallery_cover/<?php echo $cover_image;?>);">
+          style="background-image: url(<?php echo $cdn_url; ?>uploads/images/gallery_cover/<?php echo $cover_image;?>);">
             <article class="w-100 text-center p-6">
               <h3 class="h4 text-white">
                 <?php echo $row['title']; ?>

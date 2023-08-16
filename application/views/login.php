@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+  $cdn_url = "https://saincrafttechnologies-static-public-2023.fra1.digitaloceanspaces.com/shule";
+  ?>
 <head>
     <meta charset="utf-8" />
     <title>Login</title>
@@ -11,10 +13,10 @@
     <link rel="shortcut icon" href="<?php echo $this->settings_model->get_favicon(); ?>">
 
     <!-- App css -->
-    <link href="<?php echo base_url(); ?>assets/backend/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url(); ?>assets/backend/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $cdn_url; ?>/assets/backend/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $cdn_url; ?>/assets/backend/css/app.min.css" rel="stylesheet" type="text/css" />
     <!--Notify for ajax-->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/backend/css/toastr.min.css">
+    <link rel="stylesheet" href="<?php echo $cdn_url; ?>/assets/backend/css/toastr.min.css">
 
 </head>
 
@@ -74,10 +76,10 @@
 <!-- end auth-fluid-->
 
 <!-- App js -->
-<script src="<?php echo base_url(); ?>assets/backend/js/app.min.js"></script>
+<script src="<?php echo $cdn_url; ?>/assets/backend/js/app.min.js"></script>
 
 <!--Notify for ajax-->
-<script src="<?php echo base_url(); ?>assets/backend/js/toastr.min.js"></script>
+<script src="<?php echo $cdn_url; ?>/assets/backend/js/toastr.min.js"></script>
 <script>
 function forgotPass(){
     $('#loginForm').hide();

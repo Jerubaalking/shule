@@ -69,9 +69,9 @@
           <div class="col-lg-5 position-relative">
             <!-- SVG Mockup -->
             <figure class="ie-ellipse-mockup">
-              <img class="js-svg-injector" src="<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/svg/illustrations/ellipse-mockup.svg" alt="Image Description"
+              <img class="js-svg-injector" src="<?php echo $cdn_url;?>assets/frontend/<?php echo $theme;?>/svg/illustrations/ellipse-mockup.svg" alt="Image Description"
                    data-img-paths='[
-                     {"targetId": "#SVGellipseMockupImg1", "newPath": "<?php echo base_url();?>assets/frontend/<?php echo $theme;?>/img/home_promo_1.png"}
+                     {"targetId": "#SVGellipseMockupImg1", "newPath": "<?php echo $cdn_url;?>assets/frontend/<?php echo $theme;?>/img/home_promo_1.png"}
                    ]'
                    data-parent="#SVGellipseMockup">
             </figure>
