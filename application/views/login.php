@@ -7,8 +7,9 @@
     <meta charset="utf-8" />
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
-    <meta content="Coderthemes" name="author" />
+    <meta content="A fully featured school system. Saincraft revolutionalize how schools are managed! Ensure good policy to parents." name="description" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta content="Saincraft Lab" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="<?php echo $this->settings_model->get_favicon(); ?>">
 

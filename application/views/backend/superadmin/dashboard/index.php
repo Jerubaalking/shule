@@ -81,7 +81,7 @@
             <div class="card widget-flat">
               <div class="card-body">
                 <div class="float-right">
-                  <i class="mdi mdi-account-multiple widget-icon"></i>
+                  <i class="mdi mdi-account-multiple widget-icon "></i>
                 </div>
                 <h5 class="text-muted font-weight-normal mt-0" title="Number of Staff"> <i class="mdi mdi-account-group title_icon"></i> <?php echo get_phrase('staff'); ?></h5>
                 <h3 class="mt-3 mb-3">
@@ -101,7 +101,7 @@
         </div>
       </div> <!-- end col -->
       <div class="col-xl-4">
-        <div class="card bg-primary">
+        <div class="card bg-success">
           <div class="card-body">
             <h4 class="header-title text-white mb-2"><?php echo get_phrase('todays_attendance'); ?></h4>
             <div class="text-center">
